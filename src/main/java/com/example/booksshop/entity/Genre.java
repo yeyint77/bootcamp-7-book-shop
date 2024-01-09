@@ -17,13 +17,13 @@ public class Genre {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    private String Name;
+    private String genreName;
 
     @ManyToMany(mappedBy = "genres")
     private List<Book> books =
             new ArrayList<>();
 
-    public Genre(String name) {
-        Name = name;
+    public Genre(String genreName) {
+        this.genreName = genreName;
     }
 }

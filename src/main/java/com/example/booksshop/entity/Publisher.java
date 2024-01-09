@@ -19,7 +19,7 @@ public class Publisher {
     private int id;
 
     private String publisherName;
-    private String publisherUrl;
+    private String email;
 
     @OneToMany(mappedBy = "publisher",
     cascade = CascadeType.ALL,orphanRemoval = true)
@@ -31,8 +31,8 @@ public class Publisher {
         books.add(book);
     }
 
-    public Publisher(String publisherName, String publisherUrl) {
+    public Publisher(String publisherName, String email) {
         this.publisherName = publisherName;
-        this.publisherUrl = publisherUrl;
+        this.email = email;
     }
 }
