@@ -24,7 +24,8 @@ public class BooksShopApplication {
     private final BookDao bookDao;
     private final GenreDao genreDao;
     private final PublisherDao publisherDao;
-    @Bean @Transactional @Profile("data")
+    @Bean @Transactional
+    @Profile("data")
     public ApplicationRunner runner(){
         return  r ->{
             Author author1=
@@ -75,7 +76,7 @@ public class BooksShopApplication {
                     "Excellent",
                     50.3,
                     20,
-                    "https://source.unsplash.com/400x300/?flower"
+                    "https://source.unsplash.com/400x300/?sunset"
             );
             Book book5=new Book(
                     5,
@@ -84,7 +85,7 @@ public class BooksShopApplication {
                     "Excellent",
                     25.3,
                     20,
-                    "https://source.unsplash.com/400x300/?flower"
+                    "https://source.unsplash.com/400x300/?beach"
             );
             Book book6=new Book(
                     6,
@@ -93,7 +94,7 @@ public class BooksShopApplication {
                     "Excellent",
                     50.3,
                     20,
-                    "https://source.unsplash.com/400x300/?flower"
+                    "https://source.unsplash.com/400x300/?ocean"
             );
             //mapping
             author1.addBook(book1);
