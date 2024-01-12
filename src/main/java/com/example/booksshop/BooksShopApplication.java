@@ -49,7 +49,7 @@ public class BooksShopApplication {
                     "Excellent",
                     50.3,
                     20,
-                    "https://www.google.com/imgres?imgurl=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FW%2FMEDIAX_792452-T2%2Fimages%2FI%2F51zYFogJw3L.jpg&tbnid=0y9uQuMlrcHyiM&vet=12ahUKEwiCw-bTptKDAxU-pWMGHffTCNoQMygAegQIARBt..i&imgrefurl=https%3A%2F%2Fwww.amazon.com%2FOliver-Twist-Illustrated-Annotated-Collection-ebook%2Fdp%2FB006L0RI58&docid=h95HPi6bjyxgVM&w=315&h=500&q=oliver%20twist%20book&ved=2ahUKEwiCw-bTptKDAxU-pWMGHffTCNoQMygAegQIARBt"
+                    "https://mpd-biblio-covers.imgix.net/9781466805309.jpg?w=900"
             );
             Book book2=new Book(
                     2,
@@ -58,7 +58,7 @@ public class BooksShopApplication {
                     "Good Choice",
                     25.3,
                     20,
-                    "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn2.penguin.com.au%2Fcovers%2Foriginal%2F9780451531186.jpg&tbnid=NVe2jTtIyoRzFM&vet=12ahUKEwjw9-ryptKDAxWav2MGHb3JDXAQMygDegQIARBg..i&imgrefurl=https%3A%2F%2Fwww.penguin.co.nz%2Fbooks%2Fgreat-expectations-9780451531186&docid=ZZo14X00E4Y_yM&w=1253&h=2062&q=Great%20Expectations%20cover&ved=2ahUKEwjw9-ryptKDAxWav2MGHb3JDXAQMygDegQIARBg"
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgUdNz5KQzqGoUvpz-BKjpGyk93QjLguAvsVai5Ah2Wz21hbmXkHowlfvmpnitF8ulNC0&usqp=CAU"
             );
             Book book3=new Book(
                     3,
@@ -67,7 +67,7 @@ public class BooksShopApplication {
                     "Nice",
                     22.3,
                     20,
-                    "https://source.unsplash.com/400x300/?ocean"
+                    "https://victorianweb.org/art/illustration/phiz/bleakhouse/41.jpg"
             );
             Book book4=new Book(
                     4,
@@ -76,7 +76,8 @@ public class BooksShopApplication {
                     "Excellent",
                     50.3,
                     20,
-                    "https://source.unsplash.com/400x300/?sunset"
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc9dny5qmkVOSv0DSxR9Mu2dceLk3FW8b-2093-msWUkJ0O9YVbhOE9hu43zy_vcUPMZA&usqp=CAU"
+
             );
             Book book5=new Book(
                     5,
@@ -84,8 +85,7 @@ public class BooksShopApplication {
                     "Return of the Native",
                     "Excellent",
                     25.3,
-                    20,
-                    "https://source.unsplash.com/400x300/?beach"
+                    20,"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ034gqJ_RIoQwN6S7pR1jv0c0S6alKoDYurZat6JYOPgFT3NdlPjJ_a7AFjfqoW40wrFc&usqp=CAU"
             );
             Book book6=new Book(
                     6,
@@ -94,7 +94,7 @@ public class BooksShopApplication {
                     "Excellent",
                     50.3,
                     20,
-                    "https://source.unsplash.com/400x300/?ocean"
+                    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNxgUj4srBLEzX124YFYievvc1ivuAd8CyyHKn49UpgAj3TZQubHrqf7pfDBmiPGp-HjE&usqp=CAU"
             );
             //mapping
             author1.addBook(book1);

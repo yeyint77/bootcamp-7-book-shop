@@ -23,6 +23,7 @@ public class Book {
     private String description;
     private double price;
     private int stock;
+    @Column(length = 1000)
     private String imgUrl;
 
     @ManyToOne

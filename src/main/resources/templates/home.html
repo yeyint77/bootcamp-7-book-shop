@@ -12,23 +12,24 @@
 
                     <div class="col">
                         <div class="card shadow">
-                            <img th:src="${books.get(3).imgUrl}" class="card-img-top" alt="">
+                            <img th:src="${books.get(3).imgUrl}" width="400" height="300" class="card-img-top" alt="">
                             <div class="card-body text-center">
                                 <h5 class="card-title" th:text="${books.get(3).title}"></h5>
                                 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Excepturi, nobis.</p>
-                                <a th:href="@{/book/list-books}" class="btn btn-lg btn-outline-primary px-3 rounded">Details</a>
+<!--                                <a th:href="@{/book/list-books}" class="btn btn-lg btn-outline-primary px-3 rounded">Details</a>-->
+                                <a th:href="@{'/book/book-details?id=4&isbn=ISBN-1158'}" class="btn btn-lg btn-outline-primary px-3 rounded">Details</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card shadow">
-                            <img th:src="${books.get(5).imgUrl}" class="card-img-top" alt="">
+                            <img th:src="${books.get(5).imgUrl}" width="400" height="300" class="card-img-top" alt="">
                             <div class="card-body text-center">
                                 <h5 class="card-title" th:text="${books.get(5).title}"></h5>
                                 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Excepturi, nobis.</p>
-                                <a th:href="@{/book/list-books}" class="btn btn-lg btn-outline-primary px-3 rounded">Details</a>
+                                <a th:href="@{'/book/book-details?id=6&isbn=ISBN-1010'}" class="btn btn-lg btn-outline-primary px-3 rounded">Details</a>
                             </div>
                         </div>
                     </div>

@@ -14,7 +14,7 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-md navbar-dark text-white">
-    <a href="#" class="navbar-brand">
+    <a th:href="@{/}" href="#" class="navbar-brand">
         <h3 class="mb-0">BookShop</h3>
     </a>
     <button type="button" class="navbar-toggler"
@@ -25,16 +25,16 @@
     <div id="myNav" class="collapse navbar-collapse">
         <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-                <a href="#" class="nav-link">Home</a>
+                <a th:href="@{/}" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link">About</a>
+                <a  class="nav-link">About</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link">Explore</a>
+                <a class="nav-link">Explore</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link">Book</a>
+                <a th:href="@{/book/list-books}" class="nav-link">Book</a>
             </li>
         </ul>
     </div>

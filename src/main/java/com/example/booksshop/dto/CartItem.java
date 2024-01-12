@@ -6,6 +6,8 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.springframework.http.StreamingHttpOutputMessage;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
 @Getter
@@ -18,7 +20,21 @@ public class CartItem {
     private String isbn;
     private String title;
     private double price;
-    private int quantity;
+    private int quantity = 1;
+
+    private List<Integer> cartItemQuantity =
+            new ArrayList<>();
+
+    @Override
+    public String toString() {
+        return "CartItem{" +
+                "id=" + id +
+                ", isbn='" + isbn + '\'' +
+                ", title='" + title + '\'' +
+                ", price=" + price +
+                ", quantity=" + quantity +
+                '}';
+    }
 
     @Override
     public boolean equals(Object o) {
